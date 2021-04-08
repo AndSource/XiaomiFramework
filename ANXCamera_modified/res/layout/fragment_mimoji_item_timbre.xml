@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/makeup_item_bg" android:focusable="false" android:layout_width="@dimen/beautycamera_makeup_item_width" android:layout_height="@dimen/beautycamera_makeup_item_width"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/mimoji_item_image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerInside" android:layout_centerInParent="true" android:contentDescription="@null" />
+    <ImageView android:layout_gravity="center" android:id="@id/mimoji_item_selected_indicator" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" android:contentDescription="@null" />
+    <ProgressBar android:layout_gravity="center" android:id="@id/mimoji_timbre_progress" android:visibility="gone" android:layout_width="20.0dip" android:layout_height="20.0dip" android:indeterminateDrawable="@drawable/bg_mimoji_circle_progress" android:layout_centerInParent="true" style="?android:progressBarStyleSmall" />
+</FrameLayout>

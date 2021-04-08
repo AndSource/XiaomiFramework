@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="@dimen/miuix_compat_immersion_menu_background_radius" android:width="@dimen/miuix_compat_immersion_menu_background_radius" android:viewportWidth="100.0" android:viewportHeight="100.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="#ff000000" android:pathData="M100,0H0V100C0,44.771 44.771,0 100,0Z" android:fillType="evenOdd" />
+</vector>

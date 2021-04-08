@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="37.799988dip" android:width="37.799988dip" android:viewportWidth="104.0" android:viewportHeight="104.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/lpl_dialog_icon_color_selected" android:pathData="M60.435,34C61.816,34 62.935,35.119 62.935,36.5L62.935,67.5C62.935,68.881 61.816,70 60.435,70L29.435,70C28.054,70 26.935,68.881 26.935,67.5L26.935,36.5C26.935,35.119 28.054,34 29.435,34L60.435,34ZM76.782,38.967C76.964,39.161 77.065,39.417 77.065,39.683L77.065,64.317C77.065,64.896 76.595,65.367 76.015,65.367C75.749,65.367 75.493,65.266 75.298,65.084L65.935,56.339L65.935,47.659L75.298,38.916C75.722,38.52 76.387,38.543 76.782,38.967Z" android:fillType="evenOdd" />
+</vector>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/mode_item" android:layout_width="@dimen/mode_item_width" android:layout_height="@dimen/mode_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/mode_icon" android:background="@drawable/bg_mode_item" android:layout_width="@dimen/mode_icon_size" android:layout_height="@dimen/mode_icon_size" android:scaleType="fitXY" />
+    <com.android.camera.ui.AdaptiveTextView android:textSize="@dimen/mode_name_size" android:textColor="@color/mode_name_color" android:ellipsize="marquee" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/mode_name" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/mode_name_top_margin" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" />
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/lpl_dialog_icon_margin_top">
+        <LinearLayout android:orientation="vertical" android:id="@id/lpl_item_burst" android:layout_width="@dimen/lpl_dialog_icon_name_max_width" android:layout_height="wrap_content" android:layout_marginStart="@dimen/lpl_dialog_icon_margin_hor" android:layout_alignParentStart="true">
+            <androidx.appcompat.widget.AppCompatImageButton android:layout_gravity="center" android:id="@id/lpl_icon_burst" android:background="@drawable/bg_lpl_dialog_icon" android:padding="@dimen/lpl_dialog_icon_padding" android:layout_width="@dimen/lpl_dialog_icon_size" android:layout_height="@dimen/lpl_dialog_icon_size" android:src="@drawable/ic_lp_burst" />
+            <TextView android:textSize="@dimen/lpl_dialog_icon_name" android:textColor="@color/lpl_dialog_title_color" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/lpl_icon_name_burst" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/lpl_dialog_icon_margin_bottom" android:text="@string/lpl_dialog_item_name_burst" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/lpl_item_record" android:layout_width="@dimen/lpl_dialog_icon_name_max_width" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/lpl_dialog_icon_margin_hor" android:layout_alignParentEnd="true">
+            <androidx.appcompat.widget.AppCompatImageButton android:layout_gravity="center" android:id="@id/lpl_icon_record" android:background="@drawable/bg_lpl_dialog_icon" android:padding="@dimen/lpl_dialog_icon_padding" android:layout_width="@dimen/lpl_dialog_icon_size" android:layout_height="@dimen/lpl_dialog_icon_size" android:src="@drawable/ic_lp_record" />
+            <TextView android:textSize="@dimen/lpl_dialog_icon_name" android:textColor="@color/lpl_dialog_title_color" android:gravity="center" android:layout_gravity="center" android:id="@id/lpl_icon_name_record" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/lpl_dialog_icon_margin_bottom" android:text="@string/lpl_dialog_item_name_record" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

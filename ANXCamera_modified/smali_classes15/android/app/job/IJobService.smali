@@ -1,0 +1,39 @@
+.class public interface abstract Landroid/app/job/IJobService;
+.super Ljava/lang/Object;
+.source "IJobService.java"
+
+# interfaces
+.implements Landroid/os/IInterface;
+
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Landroid/app/job/IJobService$Stub;,
+        Landroid/app/job/IJobService$Default;
+    }
+.end annotation
+
+
+# virtual methods
+.method public abstract startJob(Landroid/app/job/JobParameters;)V
+    .annotation build Landroid/annotation/UnsupportedAppUsage;
+    .end annotation
+
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Landroid/os/RemoteException;
+        }
+    .end annotation
+.end method
+
+.method public abstract stopJob(Landroid/app/job/JobParameters;)V
+    .annotation build Landroid/annotation/UnsupportedAppUsage;
+    .end annotation
+
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Landroid/os/RemoteException;
+        }
+    .end annotation
+.end method

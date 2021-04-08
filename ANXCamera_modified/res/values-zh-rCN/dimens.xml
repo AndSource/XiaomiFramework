@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="clone_capture_hint_margin_left">264.89844dip</dimen>
+    <dimen name="clone_capture_hint_width">220.0dip</dimen>
+    <dimen name="clone_guide_tips_height">81.5dip</dimen>
+    <dimen name="clone_guide_tips_margin_left">25.809998dip</dimen>
+    <dimen name="clone_guide_tips_margin_top">58.544983dip</dimen>
+</resources>

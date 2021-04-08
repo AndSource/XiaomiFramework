@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:layout_gravity="center_horizontal" android:id="@id/alert_recording_time_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" style="@style/RecordingTimeStyle" />
+    <include android:layout_gravity="end" android:id="@id/video_tag_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/video_tag_margin_end" layout="@layout/video_tag_layout" />
+    <LinearLayout android:gravity="end" android:layout_gravity="end" android:orientation="vertical" android:id="@id/end_gravity_tip_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/video_ultra_tip_margin_end">
+        <TextView android:textSize="@dimen/top_left_chinese_tip_size" android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:id="@id/video_ultra_clear_tip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/ShadowStyle" />
+        <com.android.camera.ui.HistogramView android:id="@id/rgb_histogram" android:background="@drawable/shape_round_corner_histogram" android:visibility="gone" android:layout_width="@dimen/histogram_width" android:layout_height="@dimen/histogram_height" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="start" android:orientation="vertical" android:id="@id/start_gravity_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/reset_manually_parameter_tip_padding_left" android:paddingEnd="@dimen/reset_manually_parameter_tip_padding_right">
+        <ImageView android:id="@id/manually_parameter_description_tip" android:background="@drawable/ic_parameter_description_entrance_normal_shadow" android:focusable="false" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.899994dip" android:src="@drawable/ic_parameter_description_entrance_normal" />
+        <ImageView android:id="@id/reset_manually_parameter_tip" android:background="@drawable/ic_parameter_reset_normal_shadow" android:focusable="false" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_parameter_reset_normal" />
+    </LinearLayout>
+    <include android:id="@id/top_tip_layout" layout="@layout/fragment_top_tip_layout" />
+</FrameLayout>

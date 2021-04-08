@@ -1,0 +1,103 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: ANXCamera.apk
+compressionType: false
+doNotCompress:
+- arsc
+- dex
+- json
+- jpg
+- webp
+- res/drawable/actionbar_translucent.9.png
+- png
+- res/drawable-440dpi/ic_ai_hint_bg.9.png
+- res/drawable-440dpi/magic_mirror_info_pop.9.png
+- res/drawable-440dpi/ic_camera_mode_exit_button.9.png
+- res/drawable-440dpi/screen_on_proximity_sensor_hint_fg.9.png
+- res/drawable-440dpi/female_age_info_pop.9.png
+- res/drawable-440dpi/portrait_hint_text_background.9.png
+- res/drawable-440dpi/ic_object_tracking_succeed.9.png
+- res/drawable-440dpi/ic_object_tracking.9.png
+- res/drawable-440dpi/ic_live_music_text_bg.9.png
+- res/drawable-440dpi/v6_ic_toast_frame.9.png
+- res/drawable-440dpi/ic_camera_mode_exit_button_pressed.9.png
+- res/drawable-440dpi/ic_camera_mode_exit_button_full.9.png
+- res/drawable-440dpi/male_age_info_pop.9.png
+- res/drawable-440dpi/ic_camera_mode_exit_button_full_pressed.9.png
+- res/drawable-440dpi/screen_on_proximity_sensor_hint.9.png
+- res/drawable-440dpi/ic_ai_hint_bg2.9.png
+- res/drawable-xxhdpi/abc_btn_switch_to_on_mtrl_00012.9.png
+- res/drawable-xxhdpi/ic_ai_hint_bg.9.png
+- res/drawable-xxhdpi/magic_mirror_info_pop.9.png
+- res/drawable-xxhdpi/abc_spinner_mtrl_am_alpha.9.png
+- res/drawable-xxhdpi/ic_camera_mode_exit_button.9.png
+- res/drawable-xxhdpi/abc_cab_background_top_mtrl_alpha.9.png
+- res/drawable-xxhdpi/screen_on_proximity_sensor_hint_fg.9.png
+- res/drawable-xxhdpi/abc_tab_indicator_mtrl_alpha.9.png
+- res/drawable-xxhdpi/female_age_info_pop.9.png
+- res/drawable-xxhdpi/portrait_hint_text_background.9.png
+- res/drawable-xxhdpi/ic_object_tracking_succeed.9.png
+- res/drawable-xxhdpi/abc_list_longpressed_holo.9.png
+- res/drawable-xxhdpi/ic_ai_backlight_pop_selected.9.png
+- res/drawable-xxhdpi/abc_popup_background_mtrl_mult.9.png
+- res/drawable-xxhdpi/abc_list_focused_holo.9.png
+- res/drawable-xxhdpi/abc_scrubber_primary_mtrl_alpha.9.png
+- res/drawable-xxhdpi/ic_object_tracking.9.png
+- res/drawable-xxhdpi/abc_textfield_search_activated_mtrl_alpha.9.png
+- res/drawable-xxhdpi/ic_live_music_text_bg.9.png
+- res/drawable-xxhdpi/v6_ic_toast_frame.9.png
+- res/drawable-xxhdpi/abc_list_selector_disabled_holo_dark.9.png
+- res/drawable-xxhdpi/abc_list_divider_mtrl_alpha.9.png
+- res/drawable-xxhdpi/ic_camera_mode_exit_button_pressed.9.png
+- res/drawable-xxhdpi/abc_textfield_search_default_mtrl_alpha.9.png
+- res/drawable-xxhdpi/abc_list_pressed_holo_dark.9.png
+- res/drawable-xxhdpi/abc_textfield_default_mtrl_alpha.9.png
+- res/drawable-xxhdpi/abc_switch_track_mtrl_alpha.9.png
+- res/drawable-xxhdpi/abc_list_selector_disabled_holo_light.9.png
+- res/drawable-xxhdpi/ic_camera_mode_exit_button_full.9.png
+- res/drawable-xxhdpi/male_age_info_pop.9.png
+- res/drawable-xxhdpi/abc_list_pressed_holo_light.9.png
+- res/drawable-xxhdpi/ic_camera_mode_exit_button_full_pressed.9.png
+- res/drawable-xxhdpi/abc_scrubber_track_mtrl_alpha.9.png
+- res/drawable-xxhdpi/abc_ab_share_pack_mtrl_alpha.9.png
+- res/drawable-xxhdpi/screen_on_proximity_sensor_hint.9.png
+- res/drawable-xxhdpi/abc_textfield_activated_mtrl_alpha.9.png
+- res/drawable-xxhdpi/ic_ai_hint_bg2.9.png
+- res/drawable-xxhdpi/ic_ai_backlight_pop_unselected.9.png
+- res/drawable-xxhdpi/abc_btn_switch_to_on_mtrl_00001.9.png
+- res/drawable-xxhdpi/abc_menu_hardkey_panel_mtrl_mult.9.png
+- res/drawable-ldrtl-xxhdpi/abc_spinner_mtrl_am_alpha.9.png
+- res/drawable-nodpi/list_divider.9.png
+- res/drawable-nodpi/on_screen_hint_frame.9.png
+- res/drawable-nodpi/seekbar_progress_primary.9.png
+- res/drawable-xhdpi/actionbar_translucent.9.png
+- res/drawable-xhdpi/notification_bg_low_pressed.9.png
+- res/drawable-xhdpi/notification_bg_low_normal.9.png
+- res/drawable-xhdpi/notification_bg_normal_pressed.9.png
+- res/drawable-xhdpi/notification_bg_normal.9.png
+- mp4
+- gif
+- zip
+- ogg
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '26'
+  targetSdkVersion: '29'
+sharedLibrary: false
+sparseResources: false
+unknownFiles:
+  MODULE_LICENSE_BSD: '0'
+  NOTICE: '8'
+  com/xiaomi/asr/engine/META-INF/MANIFEST.MF: '8'
+  okhttp3/internal/publicsuffix/publicsuffixes.gz: '8'
+usesFramework:
+  ids:
+  - 1
+  - 16
+  tag: null
+version: 2.4.0
+versionInfo:
+  versionCode: '184'
+  versionName: 184.IrritatingModernSqueaker
